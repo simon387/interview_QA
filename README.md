@@ -129,7 +129,9 @@ A: Domain Name System, traduce indirizzi web, nomi, in indirizzi IP.
 
 **Q: HTTP / HTTPS / Header?**
 
-A: 
+A: Hiper Text Transfer Protocol, protocollo di comunicazione utilizzato per il trasferimento della pagine web. Un server HTTP generalmente resta in ascolto delle richieste dei client sulla porta 80 usando il protocollo TCP a livello di trasporto. Le specifiche sono gestite dal World Wide Web Consortium (WC£).
+
+La principale differenza tra HTTP e HTTPS è che quest'ultimo utilizza un protocollo di sicurezza SSL/TLS (Secure Sockets Layer/Trasnsport Layer Security) per cifrare i dati trasmessi.
 
 ---
 
