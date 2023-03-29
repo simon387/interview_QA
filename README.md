@@ -135,11 +135,27 @@ La principale differenza tra HTTP e HTTPS è che quest'ultimo utilizza un protoc
 
 ---
 
----
+**Q: REST Services**
+
+A: Restful se utilizzano le richieste http per inviare i dati; indipendente da piattaforma, linguaggio. Una buona progettazione REST non contempla cookies: ST sta per State Transfer, ogni richiesta è autonoma
 
 ---
 
+**Q: differenza REST / Web services**
+
+A: REST non offre metodi per gestire sicurezza, crittografia, sessioni, garanzie di QoS, proprio come un web services ma possono essere include nell'header HTTP
+
 ---
+
+**Q: REST VS SOAP**
+
+A: analogia SOAP come busta, REST come cartolina. Le cartoline sono più facili da maneggiare, sprecano meno carta e hanno in genere meno contenuti (le richieste non hanno limiti in lungheszza, se usano POST anzichè GET). REST è altrettanto sicuro come SOAP.
+
+---
+
+**Q: WEB Services SOAP**
+
+A: SOAP è un protocollo per lo scambio di messaggi tra componenti software, può operare su differenti protocolli di rete, non solo HTTP; si basa sul metalinguaggio XML e la sua struttura seugue la configurazione head-body, adalogamente ad HTML.
 
 ---
 
