@@ -159,16 +159,21 @@ A: SOAP è un protocollo per lo scambio di messaggi tra componenti software, pu�
 
 ---
 
----
+**Q: SOA**
+
+A: Con SOA si indica un'architettura sw adatta a supportare l'uso di servizi Web per garantire l'interoperabilità tra diversi sistemi così da consentire l'utilizzo delle singole applicazioni come componenti del processo di business e soddisfare le richieste degli utenti in modo integrato e trasparente; cioè è il tipo di architettura fondata sull'applicazione dell'orientamento ai servizi.
 
 ---
 
----
+**Q: Enterprice Service Bus**
+
+A: un ESB ha la funzionalità di coordinare, orchestrare i vari applicativi per svolgere le funzioni di business. E' un'infrastruttura sw che fornisce servizi di supporto a SOA complesse. Si basa su sistemi disparati, interconnessi con tecnologie etereogenee, e fornisce in maniera consistente servizi di coordinamento, sicurezza, messaggistica, instradamento intelligente e trasformazioni, agendo come una dorsale attraverso la quale viaggiono servizi sw e componenti applicativi.
+
+I servizi SOA devono essere in grado di comunicare tra di loro attraverso un canale di comunicazione: il SOA bus. Da un punto di vista srchitetturale il SOA bus è un layer che deve mettere a disposizione uno strato di cumunicazione tra i servizi. Scopo dell'ESB è fornire un'infrastruttura che centralizzi funziunalità quali supporto alla comunicazione sincrona ed asincrona basata su messaggi, intelligent routing, supporto alla trasformazione dei dati, supporto alla connettività versi EIS eterogenei.
+
+Non è legato ad una specifica tecnologica.
 
 ---
-
----
-
 
 
 
